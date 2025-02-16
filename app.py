@@ -4,6 +4,7 @@ from src.models.search import SearchRequest
 from src.services.database import get_collection
 from src.services.embeddings import get_embedding
 from src.services.filtering import filter_by_location
+from src.services.insights import analyze_case_relationships
 from dotenv import load_dotenv
 from typing import Optional
 import os
@@ -24,7 +25,7 @@ async def search_complaints(request: SearchRequest):
     lat = request.lat
     lon = request.lon
     radius_km = request.radius_km
-    top_k = request.top_k
+    top_k = request.top_k or 3
 
     search_text = (
         f"Description: {description}\n"
@@ -45,7 +46,10 @@ async def search_complaints(request: SearchRequest):
             if found:
                 matched_complaints.append(found)
 
-        return {"similar_complaints": matched_complaints}
+        return {
+            "similar_complaints": matched_complaints,
+            "insights": analyze_case_relationships(str(matched_complaints))
+        }
     else:
         raise HTTPException(status_code=404, detail="No similar complaints found")
     

@@ -31,7 +31,7 @@ def load_complaints():
             embedding = get_embedding(complaint_text)
             collection.add(
                 ids=[complaint["complaintId"]],
-                embeddings=[embedding],
+                embeddings=[embedding]
             )
 
 if __name__ == "__main__":
