@@ -1,0 +1,620 @@
+{
+  "complaints": [
+    {
+      "complaintId": "C20240101",
+      "complainantName": "Rahul Menon",
+      "complaintDateTime": "2024-01-01T00:00:00",
+      "incidentDateTime": "2023-12-31T00:00:00",
+      "location": {
+        "area": "Kalamassery",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0480,
+          "longitude": 76.3102
+        }
+      },
+      "category": "Theft",
+      "description": "Motorbike stolen from a residential parking area.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Rahul Menon"
+    },
+    {
+      "complaintId": "C20240102",
+      "complainantName": "Suresh Kumar",
+      "complaintDateTime": "2024-01-02T00:00:00",
+      "incidentDateTime": "2024-01-01T00:00:00",
+      "location": {
+        "area": "CUSAT",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0459,
+          "longitude": 76.3257
+        }
+      },
+      "category": "Cyber Crime",
+      "description": "Unauthorized online transaction of Rs. 50,000.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Suresh Kumar"
+    },
+    {
+      "complaintId": "C20240103",
+      "complainantName": "Anjali Raj",
+      "complaintDateTime": "2024-01-03T00:00:00",
+      "incidentDateTime": "2024-01-02T00:00:00",
+      "location": {
+        "area": "Edappally",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0240,
+          "longitude": 76.3076
+        }
+      },
+      "category": "Assault",
+      "description": "Physical altercation between two individuals in a shopping mall.",
+      "suspectInfo": "Identified but not arrested",
+      "victimInfo": "Anjali Raj"
+    },
+    {
+      "complaintId": "C20240104",
+      "complainantName": "Vijay Das",
+      "complaintDateTime": "2024-01-04T00:00:00",
+      "incidentDateTime": "2024-01-03T00:00:00",
+      "location": {
+        "area": "Aluva",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.1076,
+          "longitude": 76.3511
+        }
+      },
+      "category": "Hit & Run",
+      "description": "Car hit a pedestrian and fled the scene. Victim hospitalized.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Ravi Nair"
+    },
+    {
+      "complaintId": "C20240105",
+      "complainantName": "John Mathew",
+      "complaintDateTime": "2024-01-05T00:00:00",
+      "incidentDateTime": "2024-01-04T00:00:00",
+      "location": {
+        "area": "Fort Kochi",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 9.9676,
+          "longitude": 76.2423
+        }
+      },
+      "category": "Murder",
+      "description": "Man found dead in an abandoned warehouse. Possible homicide.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "John Doe",
+      "relatedCases": ["C20240106"] 
+    },
+    {
+      "complaintId": "C20240106",
+      "complainantName": "Police Auto-detect",
+      "complaintDateTime": "2024-01-06T00:00:00",
+      "incidentDateTime": "2024-01-05T00:00:00",
+      "location": {
+        "area": "Kottayam",
+        "district": "Kottayam",
+        "coordinates": {
+          "latitude": 9.5916,
+          "longitude": 76.5222
+        }
+      },
+      "category": "Murder",
+      "description": "Second body found in a similar manner as the Fort Kochi case.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Jane Doe",
+       "relatedCases": ["C20240105"] 
+    },
+    {
+      "complaintId": "C20240107",
+      "complainantName": "Anand Raj",
+      "complaintDateTime": "2024-01-07T00:00:00",
+      "incidentDateTime": "2024-01-06T00:00:00",
+      "location": {
+        "area": "Trivandrum",
+        "district": "Thiruvananthapuram",
+        "coordinates": {
+          "latitude": 8.5241,
+          "longitude": 76.9366
+        }
+      },
+      "category": "Financial Fraud",
+      "description": "Investment scam duped multiple victims of Rs. 5 crores.",
+      "suspectInfo": "Identified but absconding",
+      "victimInfo": "Multiple victims"
+    },
+    {
+      "complaintId": "C20240108",
+      "complainantName": "Rohan Gupta",
+      "complaintDateTime": "2024-01-08T00:00:00",
+      "incidentDateTime": "2024-01-07T00:00:00",
+      "location": {
+        "area": "Kalamassery",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0480,
+          "longitude": 76.3102
+        }
+      },
+      "category": "Theft",
+      "description": "Laptop stolen from office. Similar to C20240101 and C20240110",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Rohan Gupta",
+      "relatedCases": ["C20240101", "C20240110"]
+    },
+    {
+      "complaintId": "C20240110",
+      "complainantName": "Sita Devi",
+      "complaintDateTime": "2024-01-10T00:00:00",
+      "incidentDateTime": "2024-01-09T00:00:00",
+      "location": {
+        "area": "Edappally",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0240,
+          "longitude": 76.3076
+        }
+      },
+      "category": "Theft",
+      "description": "Jewelry stolen from house. Similar to C20240101 and C20240108",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Sita Devi",
+      "relatedCases": ["C20240101", "C20240108"]
+    },
+    {
+      "complaintId": "KER23016",
+      "complainantName": "Sanjay Nair",
+      "complaintDateTime": "2024-01-12T15:20:00",
+      "incidentDateTime": "2024-01-12T14:30:00",
+      "location": {
+        "area": "Palarivattom",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0082,
+          "longitude": 76.3041
+        }
+      },
+      "category": "cybercrime",
+      "description": "Online banking fraud targeting elderly",
+      "suspectInfo": "Caller claimed to be bank employee",
+      "victimInfo": "Elderly male, lost Rs. 50,000"
+    },
+    {
+      "complaintId": "KER23017",
+      "complainantName": "Traffic Police",
+      "complaintDateTime": "2024-01-12T18:45:00",
+      "incidentDateTime": "2024-01-12T18:30:00",
+      "location": {
+        "area": "CUSAT Junction",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0468,
+          "longitude": 76.3216
+        }
+      },
+      "category": "drug_trafficking",
+      "description": "White car from cases KER23010 and KER23013 spotted",
+      "suspectInfo": "Same group, additional member noted",
+      "victimInfo": null
+    },
+    {
+      "complaintId": "KER23018",
+      "complainantName": "Mary Philip",
+      "complaintDateTime": "2024-01-13T09:30:00",
+      "incidentDateTime": "2024-01-13T02:15:00",
+      "location": {
+        "area": "Kakkanad",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0158,
+          "longitude": 76.3418
+        }
+      },
+      "category": "cybercrime",
+      "description": "Similar banking fraud as KER23016",
+      "suspectInfo": "Same modus operandi, similar voice described",
+      "victimInfo": "Retired teacher, lost Rs. 75,000"
+    },
+    {
+      "complaintId": "KER23001",
+      "complainantName": "Rajesh Kumar",
+      "complaintDateTime": "2023-12-15T14:30:00",
+      "incidentDateTime": "2023-12-15T02:15:00",
+      "location": {
+        "area": "Kalamassery",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0528,
+          "longitude": 76.3235
+        }
+      },
+      "category": "theft",
+      "description": "Break-in at electronics store, high-end smartphones stolen",
+      "suspectInfo": "Two males, one tall wearing black hoodie, accessed through back door",
+      "victimInfo": "Store owner: Rajesh Kumar"
+    },
+    {
+      "complaintId": "KER23002",
+      "complainantName": "Priya Thomas",
+      "complaintDateTime": "2023-12-16T09:15:00",
+      "incidentDateTime": "2023-12-15T23:45:00",
+      "location": {
+        "area": "CUSAT Junction",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0469,
+          "longitude": 76.3215
+        }
+      },
+      "category": "theft",
+      "description": "Similar break-in pattern, smartphones stolen from mobile shop",
+      "suspectInfo": "Two suspects, similar description to KER23001",
+      "victimInfo": "Shop owner: Priya Thomas"
+    },
+    {
+      "complaintId": "KER23003",
+      "complainantName": "Anonymous",
+      "complaintDateTime": "2023-12-20T16:45:00",
+      "incidentDateTime": "2023-12-20T15:30:00",
+      "location": {
+        "area": "Edappally",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0268,
+          "longitude": 76.3102
+        }
+      },
+      "category": "suspicious_activity",
+      "description": "Suspicious persons matching description of electronics store thieves",
+      "suspectInfo": "Two males matching previous theft cases",
+      "victimInfo": null
+    },
+    {
+      "complaintId": "KER23004",
+      "complainantName": "Fatima Begum",
+      "complaintDateTime": "2023-11-05T08:30:00",
+      "incidentDateTime": "2023-11-04T23:00:00",
+      "location": {
+        "area": "Thrikkakara",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0344,
+          "longitude": 76.3279
+        }
+      },
+      "category": "homicide",
+      "description": "Body found in abandoned building",
+      "suspectInfo": null,
+      "victimInfo": "Unidentified male, approximately 35 years old"
+    },
+    {
+      "complaintId": "KER23005",
+      "complainantName": "Police Patrol Unit",
+      "complaintDateTime": "2023-11-25T22:15:00",
+      "incidentDateTime": "2023-11-25T21:45:00",
+      "location": {
+        "area": "Kalamassery",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0552,
+          "longitude": 76.3238
+        }
+      },
+      "category": "homicide",
+      "description": "Second body found with similar marks as KER23004",
+      "suspectInfo": "Male, approximately 6ft tall, seen leaving the area",
+      "victimInfo": "Male, 40 years old, identified as James Philip"
+    },
+    {
+      "complaintId": "KER23006",
+      "complainantName": "Sreekumar M",
+      "complaintDateTime": "2023-10-12T11:20:00",
+      "incidentDateTime": "2023-10-12T10:30:00",
+      "location": {
+        "area": "South Kalamassery",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0515,
+          "longitude": 76.3225
+        }
+      },
+      "category": "assault",
+      "description": "Physical altercation due to previous property dispute",
+      "suspectInfo": "Abdul Kareem, previous case defendant from KER23089",
+      "victimInfo": "Complainant suffered minor injuries"
+    },
+    {
+      "complaintId": "KER23007",
+      "complainantName": "Security Guard",
+      "complaintDateTime": "2023-12-28T03:15:00",
+      "incidentDateTime": "2023-12-28T02:45:00",
+      "location": {
+        "area": "CUSAT Campus",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0472,
+          "longitude": 76.3219
+        }
+      },
+      "category": "theft",
+      "description": "Break-in attempt at university computer lab",
+      "suspectInfo": "Two males matching description from previous electronics thefts",
+      "victimInfo": null
+    },
+    {
+      "complaintId": "KER23008",
+      "complainantName": "Arun Menon",
+      "complaintDateTime": "2023-12-30T10:20:00",
+      "incidentDateTime": "2023-12-29T23:15:00",
+      "location": {
+        "area": "Edappally",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0265,
+          "longitude": 76.3098
+        }
+      },
+      "category": "theft",
+      "description": "Electronics store burglary, similar MO to previous cases",
+      "suspectInfo": "Two suspects, one wearing distinctive red shoes",
+      "victimInfo": "Store owner: Arun Menon"
+    },
+    {
+      "complaintId": "KER23009",
+      "complainantName": "Local Resident",
+      "complaintDateTime": "2023-12-15T07:45:00",
+      "incidentDateTime": "2023-12-15T01:30:00",
+      "location": {
+        "area": "Thrikkakara",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0347,
+          "longitude": 76.3282
+        }
+      },
+      "category": "homicide",
+      "description": "Third body found with similar characteristics to previous cases",
+      "suspectInfo": "Tall male figure seen in CCTV",
+      "victimInfo": "Male, 38 years old, identified as Mathew George"
+    },
+    {
+      "complaintId": "KER23010",
+      "complainantName": "Anonymous",
+      "complaintDateTime": "2024-01-02T16:30:00",
+      "incidentDateTime": "2024-01-02T15:45:00",
+      "location": {
+        "area": "Kalamassery",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0531,
+          "longitude": 76.3238
+        }
+      },
+      "category": "drug_trafficking",
+      "description": "Suspected drug dealing near educational institution",
+      "suspectInfo": "Group of 3-4 individuals in white car",
+      "victimInfo": null
+    },
+    {
+      "complaintId": "KER23011",
+      "complainantName": "Binoy Joseph",
+      "complaintDateTime": "2024-01-03T09:15:00",
+      "incidentDateTime": "2024-01-02T22:30:00",
+      "location": {
+        "area": "CUSAT Junction",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0470,
+          "longitude": 76.3217
+        }
+      },
+      "category": "theft",
+      "description": "Laptop theft from parked car",
+      "suspectInfo": "Two males on motorcycle, one wearing red shoes",
+      "victimInfo": "Vehicle owner: Binoy Joseph"
+    },
+    {
+      "complaintId": "KER23012",
+      "complainantName": "Zainab Ali",
+      "complaintDateTime": "2024-01-05T14:20:00",
+      "incidentDateTime": "2024-01-05T13:45:00",
+      "location": {
+        "area": "Edappally",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0271,
+          "longitude": 76.3105
+        }
+      },
+      "category": "assault",
+      "description": "Physical assault related to property dispute from KER23006",
+      "suspectInfo": "Same suspect from previous case",
+      "victimInfo": "Female, 45 years old, minor injuries"
+    },
+    {
+      "complaintId": "KER23013",
+      "complainantName": "Police Officer",
+      "complaintDateTime": "2024-01-07T23:45:00",
+      "incidentDateTime": "2024-01-07T23:30:00",
+      "location": {
+        "area": "Kalamassery",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0525,
+          "longitude": 76.3232
+        }
+      },
+      "category": "drug_trafficking",
+      "description": "Drug dealing operation, same white car as KER23010",
+      "suspectInfo": "Same group from previous case, additional details noted",
+      "victimInfo": null
+    },
+    {
+      "complaintId": "KER23014",
+      "complainantName": "Anonymous",
+      "complaintDateTime": "2024-01-08T02:15:00",
+      "incidentDateTime": "2024-01-07T23:50:00",
+      "location": {
+        "area": "Thrikkakara",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0349,
+          "longitude": 76.3285
+        }
+      },
+      "category": "homicide",
+      "description": "Fourth victim found, similar pattern to previous cases",
+      "suspectInfo": "Tall male, matches previous descriptions",
+      "victimInfo": "Male, 42 years old, identity pending"
+    },
+    {
+      "complaintId": "KER23015",
+      "complainantName": "Shop Owner",
+      "complaintDateTime": "2024-01-10T08:30:00",
+      "incidentDateTime": "2024-01-09T23:15:00",
+      "location": {
+        "area": "Edappally",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0267,
+          "longitude": 76.3101
+        }
+      },
+      "category": "theft",
+      "description": "Electronics store burglary, linked to previous cases",
+      "suspectInfo": "Two suspects, matches previous descriptions",
+      "victimInfo": "Store owner reports significant loss"
+    },
+    {
+      "complaintId": "C20240101",
+      "complainantName": "Rahul Menon",
+      "complaintDateTime": "2024-01-01T00:00:00",
+      "incidentDateTime": "2023-12-31T00:00:00",
+      "location": {
+        "area": "Kalamassery",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0480,
+          "longitude": 76.3102
+        }
+      },
+      "category": "Theft",
+      "description": "Motorbike stolen from a residential parking area.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Rahul Menon"
+    },
+    {
+      "complaintId": "C20240102",
+      "complainantName": "Suresh Kumar",
+      "complaintDateTime": "2024-01-02T00:00:00",
+      "incidentDateTime": "2024-01-01T00:00:00",
+      "location": {
+        "area": "CUSAT",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0459,
+          "longitude": 76.3257
+        }
+      },
+      "category": "Cyber Crime",
+      "description": "Unauthorized online transaction of Rs. 50,000.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Suresh Kumar"
+    },
+    {
+      "complaintId": "C20240103",
+      "complainantName": "Anjali Raj",
+      "complaintDateTime": "2024-01-03T00:00:00",
+      "incidentDateTime": "2024-01-02T00:00:00",
+      "location": {
+        "area": "Edappally",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.0240,
+          "longitude": 76.3076
+        }
+      },
+      "category": "Assault",
+      "description": "Physical altercation between two individuals in a shopping mall.",
+      "suspectInfo": "Identified but not arrested",
+      "victimInfo": "Anjali Raj"
+    },
+    {
+      "complaintId": "C20240104",
+      "complainantName": "Vijay Das",
+      "complaintDateTime": "2024-01-04T00:00:00",
+      "incidentDateTime": "2024-01-03T00:00:00",
+      "location": {
+        "area": "Aluva",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 10.1076,
+          "longitude": 76.3511
+        }
+      },
+      "category": "Hit & Run",
+      "description": "Car hit a pedestrian and fled the scene. Victim hospitalized.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Ravi Nair"
+    },
+    {
+      "complaintId": "C20240105",
+      "complainantName": "John Mathew",
+      "complaintDateTime": "2024-01-05T00:00:00",
+      "incidentDateTime": "2024-01-04T00:00:00",
+      "location": {
+        "area": "Fort Kochi",
+        "district": "Ernakulam",
+        "coordinates": {
+          "latitude": 9.9676,
+          "longitude": 76.2423
+        }
+      },
+      "category": "Murder",
+      "description": "Man found dead in an abandoned warehouse. Possible homicide.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "John Doe"
+    },
+    {
+      "complaintId": "C20240106",
+      "complainantName": "Police Auto-detect",
+      "complaintDateTime": "2024-01-06T00:00:00",
+      "incidentDateTime": "2024-01-05T00:00:00",
+      "location": {
+        "area": "Kottayam",
+        "district": "Kottayam",
+        "coordinates": {
+          "latitude": 9.5916,
+          "longitude": 76.5222
+        }
+      },
+      "category": "Murder",
+      "description": "Second body found in a similar manner as the Fort Kochi case.",
+      "suspectInfo": "Unknown",
+      "victimInfo": "Jane Doe"
+    },
+    {
+      "complaintId": "C20240107",
+      "complainantName": "Anand Raj",
+      "complaintDateTime": "2024-01-07T00:00:00",
+      "incidentDateTime": "2024-01-06T00:00:00",
+      "location": {
+        "area": "Trivandrum",
+        "district": "Thiruvananthapuram",
+        "coordinates": {
+          "latitude": 8.5241,
+          "longitude": 76.9366
+        }
+      },
+      "category": "Financial Fraud",
+      "description": "Investment scam duped multiple victims of Rs. 5 crores.",
+      "suspectInfo": "Identified but absconding",
+      "victimInfo": "Multiple victims"
+    }
+  ]
+}

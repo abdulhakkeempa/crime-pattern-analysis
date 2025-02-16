@@ -1,0 +1,4 @@
+*.pyc
+.env
+./complaints_db
+venv
