@@ -47,14 +47,16 @@ rag-app
      OPENAI_API_KEY=your_api_key_here
      ```
 
-5. Run the application:
+5. Load vector embeddings
    ```
-   uvicorn src.api.app:app --reload
+   python -m src.services.data
+   ```
+
+6. Run the application:
+   ```
+   python app.py
    ```
 
 ## Usage
 - The API provides an endpoint to search for similar complaints based on a description, victim, suspect, and geographical location.
 - Use tools like Postman or curl to interact with the API.
-
-## License
-This project is licensed under the MIT License.
