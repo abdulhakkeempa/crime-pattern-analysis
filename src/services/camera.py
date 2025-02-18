@@ -46,9 +46,3 @@ def find_cameras_in_radius(lat, lng, radius_km):
             nearby_cameras.append({**camera, "distance_km": round(distance, 2)})
 
     return sorted(nearby_cameras, key=lambda x: x["distance_km"])  # Sort by distance
-
-# Example Usage
-lat, lng = 10.0400, 76.3200  # Example location near CUSAT
-radius_km = 1  # Search radius in km
-nearby_cameras = find_cameras_in_radius(lat, lng, radius_km)
-print(nearby_cameras)  
