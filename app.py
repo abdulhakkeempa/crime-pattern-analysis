@@ -1,5 +1,4 @@
 from fastapi import FastAPI, HTTPException, Query
-from fastapi.middleware.cors import CORSMiddleware
 from src.models.complaint import Complaint
 from src.models.search import SearchRequest
 from src.services.database import get_collection
@@ -14,15 +13,6 @@ import json
 load_dotenv()
 
 app = FastAPI()
-
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Adjust this to the specific origins you want to allow
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
 db_path = os.getenv("DB_PATH")
 collection = get_collection(db_path)
